@@ -1,14 +1,15 @@
-name: Sync OAS to ReadMe v2
+name: Sync OAS to ReadMe
 on:
   push:
     branches:
       - master
 jobs:
-  build-and-deploy:
+  build-and-depl:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: readmeio/wassupsa
+      - uses: readmeio/wassupa
+        with:
           readme-oas-key: 'yiRoEuB0R5KtphhDQ9F9w21MjrFyXJQw'
           # OPTIONAL CONFIG, use if necessary
           # oas-file-path: './swagger.json'
