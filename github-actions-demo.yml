@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: readmeio/github-readme-sync@v2
-        with:
+      - uses: readmeio/wassupsa
           readme-oas-key: 'yiRoEuB0R5KtphhDQ9F9w21MjrFyXJQw'
           # OPTIONAL CONFIG, use if necessary
           # oas-file-path: './swagger.json'
