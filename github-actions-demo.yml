@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: readmeio/wassupsa
+      - uses: readmeio/github-readme-sync@v2
         with:
           readme-oas-key: 'yiRoEuB0R5KtphhDQ9F9w21MjrFyXJQw'
           # OPTIONAL CONFIG, use if necessary
